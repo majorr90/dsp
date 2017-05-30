@@ -19,7 +19,18 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+Command | Action
+------------ | -------------
+`pwd` | show current working directory path
+`mkdir [dir]` | creating a directory
+`rm -r [dir]` | deleting a directory
+`touch [file]` | creating a file using `touch` command
+`rm -i [file]` | deleting a file
+`mv [file] [newfilename]` | renaming a file
+`ls -a` | listing hidden files
+`cp [file] [dir]` | copying a file from one directory to another
+`open [file]` | opening a file
+`sudo [command]` | running a command with the security privileges of the superuser (Super User DO)
 
 ---
 
@@ -34,7 +45,15 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+Command | Action
+------------ | -------------
+`ls` | short listing
+`ls -a` | listing including hidden files
+`ls -l` | long listing
+`ls -lh` | long listing with human-readable file sizes
+`ls -lah` | long listing with human-readable file sizes including hidden files
+`ls -t` | listing sorted by time modified (most recently modified first) before sorting the operands by lexicographical order.
+`ls -Glp` | long listing with colorized output where directories end with '/'
 
 ---
 
@@ -42,7 +61,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+1. `ls -m`
+2. `ls -d`
+3. `ls -u`
+4. `ls -g`
+5. `ls -c`
 
 ---
 
@@ -50,7 +73,10 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`xargs` runs commands on the output from other command line programs. You can force `xargs` to use at most `max-args` arguments per command line. For example, the following will use the first two arguments per command:
+```console
+$ echo 1 2 3 4 | xargs -n 2
+```
 
  
 
