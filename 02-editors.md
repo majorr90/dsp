@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Nano because it felt the most natural to use in my opinion.
 
 --
 
@@ -89,6 +89,6 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Rodeo. I've used RStudio in the past, and Rodeo is basically a clone of RStudio. It's built for data science so it's great at organizing and displaying data frames and plots. Command+S saves, and I use it to a paranoid degree. Command+R resets the kernel, which can be useful. It's not a highly customizable editor.
 
  
