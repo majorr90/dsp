@@ -1,13 +1,8 @@
-import math
-import numpy as np
 
-<<<<<<< HEAD
 ```python
 import math
 import numpy as np
 
-=======
->>>>>>> origin/master
 import thinkstats2
 import nsfg
 
@@ -29,7 +24,6 @@ def CohenEffectSize(group1, group2):
 
 g1, g2 = ReadBirthOrd()
 print(CohenEffectSize(g1['totalwgt_lb'], g2['totalwgt_lb']))
-<<<<<<< HEAD
+
 ```
-=======
->>>>>>> origin/master
+
