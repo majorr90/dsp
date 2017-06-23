@@ -101,7 +101,7 @@ How do frequentist and Bayesian statistics compare?
 **Reasoning** | Deductive. | Inductive.
 **Randomness** | Population parameters are fixed. Observed data are random. Sampling distributions that give the probabilities of observing various outcomes are based on the values of certain population parameters. | Observed data are fixed. Population parameters are random. The probability distribution functions associated with them are based on the observed outcomes.
 **Terminology** | Frequentists never talk about the probability that a statement is true or the probability that the true value lies within some interval. | Bayesians never use terms like *p value*, *significant*, *null hypothesis*, or *confidence interval*. Instead, they use strange terms like *prior probability*, *non-informative priors*, and *credible intervals*.
-**Usable information** | Data from each experiment are viewed as a self-contained bundle of information. Conclusions are strictly drawn from what?s in that set of data. | Bayesians have a broader view on what information is usable?starting with *prior probabilities* and then blending in the results of their latest experiment to revise the probabilities. These revised probabilities may become the *prior probabilities* in the analysis of their next experiment.
+**Usable information** | Data from each experiment are viewed as a self-contained bundle of information. Conclusions are strictly drawn from what?s in that set of data. | Bayesians have a broader view on what information is usable--starting with *prior probabilities* and then blending in the results of their latest experiment to revise the probabilities. These revised probabilities may become the *prior probabilities* in the analysis of their next experiment.
 
 ---
 
