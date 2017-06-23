@@ -86,14 +86,22 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> 1/425
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> 
+ | **Frequentist** | **Bayesian**
+----------------- | ------------------------------ | ------------------------------
+**Probability** | Some event in terms of the relative frequency with which the event tends to occur. | A measure of the strength of your belief regarding the true situation.
+**Use** | Most of the statistical techniques in use today are based on the frequentist view of probability, mostly because this approach involves simpler calculations. | With the computers becoming more powerful, we may see the Bayesian being used more frequently than today.
+**Reasoning** | Deductive. | Inductive.
+**Randomness** | Population parameters are fixed. Observed data are random. Sampling distributions that give the probabilities of observing various outcomes are based on the values of certain population parameters. | Observed data are fixed. Population parameters are random. The probability distribution functions associated with them are based on the observed outcomes.
+**Terminology** | Frequentists never talk about the probability that a statement is true or the probability that the true value lies within some interval. | Bayesians never use terms like *p value*, *significant*, *null hypothesis*, or *confidence interval*. Instead, they use strange terms like *prior probability*, *non-informative priors*, and *credible intervals*.
+**Usable info** | Data from each experiment are viewed as a self-contained bundle of information. Conclusions are strictly drawn from what?s in that set of data. | Bayesians have a broader view on what information is usable?starting with *prior probabilities* and then blending in the results of their latest experiment to revise the probabilities. These revised probabilities may become the *prior probabilities* in the analysis of their next experiment.
 
 ---
 
