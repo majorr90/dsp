@@ -94,7 +94,7 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 How do frequentist and Bayesian statistics compare?
 
 >> 
- | **Frequentist** | **Bayesian**
+**Comparison** | **Frequentist** | **Bayesian**
 ----------------- | ------------------------------ | ------------------------------
 **Probability** | Some event in terms of the relative frequency with which the event tends to occur. | A measure of the strength of your belief regarding the true situation.
 **Use** | Most of the statistical techniques in use today are based on the frequentist view of probability, mostly because this approach involves simpler calculations. | With the computers becoming more powerful, we may see the Bayesian being used more frequently than today.
