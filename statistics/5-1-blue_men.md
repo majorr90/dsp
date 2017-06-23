@@ -21,5 +21,5 @@ sigma = 7.7
 dist = scipy.stats.norm(loc=mu, scale=sigma)
 low = dist.cdf(177.8)
 high = dist.cdf(185.4)
-print(high-low)
+print((high-low)*100, '%')
 ```
